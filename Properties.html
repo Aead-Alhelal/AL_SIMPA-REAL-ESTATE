@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Properties</title>
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+
+       $('.button1').click(function () {
+           $('.div-prop1').slideToggle(1000)
+       })
+})
+   </script>
+</head>
+<body>
+<table>
+
+<h1 class="h1-prop">Residential Apartments</h1>    
+      <table  class="table-prop">
+        <thead class="thead-prop">
+          <tr>
+            <th>المدينة</th>
+            <th>التفاصيل</th>
+            <th>الإيجار الشهري</th>
+            <th>اظهار التفاصيل</th>
+            <th>اختيار</th>
+          </tr>
+        </thead>
+        <tbody> 
+<td>درعا</td>
+<td>مساحته 98متر / غرفتين وصالون</td>
+<td>450.000</td>
+<td>
+        <input type="checkbox" onclick="toggleDetails(this)">
+        <div class="hidden">
+            <p> المنطة : شارع خالد</p>
+            <p>  يوجد بلكون مساحة 10 متر   </p>
+            <p> مفروش </p>
+            <p>الطابق الثاني</p>
+            <p>الملكية: طابو</p>
+            <img src="صور الويب/IMG-20240517-WA0057.jpg">
+            <img src="صور الويب/IMG-20240517-WA0058.jpg">
+            </div>
+</td>
+<td>
+        <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+</td>
+<body>
+    <tbody> 
+<td>درعا</td>
+<td>مساحته 70متر / غرفة وصالون</td>
+<td>100000</td>
+<td>
+<div>   
+    <input type="checkbox" onclick="toggleDetails(this)">
+    <div class="hidden">
+        <p> المنطة : شمسين</p>
+        <p>  يوجد بلكون مساحة 14 متر</p>
+        <p> غير مفروشة</p>
+        <p>الطابق ثالث</p>
+        <p>الملكية: طابو</p>
+        <img src="صور الويب/IMG-20240517-WA0059.jpg">
+        <img src="صور الويب/IMG-20240517-WA0060.jpg">
+        </div>
+</td>
+<td>
+    <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+</td>
+<tbody> 
+    <td>حلب</td>
+    <td>مساحته 90متر / غرفة وصالون</td>
+    <td>625000</td>
+    <td>
+        <input type="checkbox" onclick="toggleDetails(this)">
+        <div class="hidden">
+            <p> المنطة : العطية</p>
+            <p> يوجد بلكون مساحة 5 متر   </p>
+            <p>  مفروشة</p>
+            <p>الطابق الرابع</p>
+            <p>الملكية: غير مسجل</p>
+            <img src="صور الويب/IMG-20240517-WA0061.jpg">
+            <img src="صور الويب/IMG-20240517-WA0060.jpg">
+            </div>   
+    </td>
+    <td>
+        <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+    </td>
+    <tbody> 
+        <td>دمشق</td>
+        <td>مساحته 70متر / غرفة وصالون</td>
+        <td>30000</td>
+        <td>
+        <div>
+            
+            <input type="checkbox" onclick="toggleDetails(this)">
+            <div class="hidden">
+                <p> المنطة : صحنايا</p>
+                <p> يوجد بلكون    </p>
+                <p>  مفروشة</p>
+                <p>الطابق الاول</p>
+            <p>الملكية: غير مسجل</p>
+                <img src="صور الويب/IMG-20240517-WA0063.jpg">
+                <img src="صور الويب/IMG-20240517-WA0069.jpg">
+                </div>
+        </td>
+        <td>
+            <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+        </td>
+        <tbody> 
+            <td>دير الزور</td>
+            <td>مساحته 50متر / غرفة </td>
+            <td>120000</td>
+            <td>
+            
+                <input type="checkbox" onclick="toggleDetails(this)">
+                <div class="hidden">
+                    <p> المنطة : شيخ علي</p>
+                    <p>  مفروشة</p>
+                    <p>الطابق الثاني</p>
+                    <p>الملكية: طابو</p>
+                    <img src="صور الويب/IMG-20240517-WA0065.jpg">
+                    <img src="صور الويب/IMG-20240517-WA0066.jpg">
+                    </div>
+            </td>
+            <td>
+                <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+            </td>
+            <tbody> 
+                <td>دمشق</td>
+                <td>مساحته 100متر / ثلاث غرف وصالون</td>
+                <td>142000</td>
+                <td>
+                    <input type="checkbox" onclick="toggleDetails(this)">
+                    <div class="hidden">
+                        <p> المنطة : كفرسوسة</p>
+                        <p>  مفروشة</p>
+                        <p>الطابق الثاني</p>
+                        <p>الملكية: طابو</p>
+                        <img src="صور الويب/IMG-20240517-WA0068.jpg">
+                        <img src="صور الويب/IMG-20240517-WA0070.jpg">
+                        </div>
+                </td>
+                <td>
+                    <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+                </td>
+                <tbody> 
+                    <td>دمشق</td>
+                    <td>مساحته 200متر / اربع غرف</td>
+                    <td>75000</td>
+                    <td>
+                        <input type="checkbox" onclick="toggleDetails(this)">
+                        <div class="hidden">
+                            <p> المنطة : كفرسوسة</p>
+                            <p> يوجد بلكون    </p>
+                            <p> يوجد كراج</p>
+                            <p>  مفروشة</p>
+                            <p>الطابق الاول</p>
+                            <p>الملكية: طابو</p>
+                            <img src="صور الويب/IMG-20240517-WA0071.jpg">
+                            <img src="صور الويب/IMG-20240517-WA0071.jpg">
+                            </div>
+                    </td>
+                    <td>
+                        <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+                    </td>
+                    <tbody> 
+                        <td>الحسكة</td>
+                        <td>مساحته 60متر / غرفة </td>
+                        <td>500000</td>
+                        <td>
+                            <input type="checkbox" onclick="toggleDetails(this)">
+                            <div class="hidden">
+                                <p> المنطة : عين التينة</p>
+                                <p> يوجد كراج</p>
+                                <p>  مفروشة</p>
+                                <p>الطابق الثاني</p>
+                                <p>الملكية: غير مسجل</p>
+                                <img src="صور الويب/IMG-20240517-WA0074.jpg">
+                                <img src="صور الويب/IMG-20240517-WA0075.jpg">
+                                </div>
+                        </td>
+                        <td>
+                            <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+                        </td>
+                        <tbody> 
+                            <td>دمشق</td>
+                            <td>مساحته 70متر / غرفة وصالون</td>
+                            <td>94100</td>
+                            <td>
+                                <input type="checkbox" onclick="toggleDetails(this)">
+                                <div class="hidden">
+                                    <p> المنطة : صناعة</p>
+                                    <p> يوجد بلكون    </p>
+                                    <p>  مفروشة</p>
+                                    <p>الطابق الخامس</p>
+                                    <p>الملكية: طابو</p>
+                                    <img src="صور الويب/IMG-20240517-WA0077.jpg">
+                                    <img src="صور الويب/IMG-20240517-WA0078.jpg">
+                                    </div>
+                            </td>
+                            <td>
+                                <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+                            </td>
+                            <tbody> 
+                                <td>حلب</td>
+                                <td>مساحته 70متر / غرفة وصالون</td>
+                                <td>75200</td>
+                                <td>
+                                    <input type="checkbox" onclick="toggleDetails(this)">
+                                    <div class="hidden">
+                                        <p> المنطة : الدامور</p>
+                                        <p> يوجد بلكون    </p>
+                                        <p> يوجد حديقة</p>
+                                        <p>  مفروشة</p>
+                                        <p>الطابق الرابع</p>
+                                        <p>الملكية: طابو</p>
+                                        <img src="صور الويب/IMG-20240517-WA0079.jpg">
+                                        <img src="صور الويب/IMG-20240517-WA0080.jpg">
+                                        </div>
+                                </td>
+                                <td>
+                                    <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+                                </td>
+                                <tbody> 
+                                    <td>دمشق</td>
+                                    <td>مساحته 200متر / غرفة وصالون</td>
+                                    <td>140000</td>
+                                    <td>
+                                        <input type="checkbox" onclick="toggleDetails(this)">
+                                        <div class="hidden">
+                                            <p> المنطة : مهاجرين</p>
+                                            <p> يوجد بلكون    </p>
+                                            <p> يوجد كراج</p>
+                                            <p> غير مفروشة</p>
+                                            <p>الطابق الثاني</p>
+                                            <p>الملكية: غير مسجل</p>
+                                            <img src="صور الويب/IMG-20240517-WA0081.jpg">
+                                            <img src="صور الويب/IMG-20240517-WA0082.jpg">
+                                            </div>
+                                    </td>
+                                    <td>
+                                        <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+                                    </td>
+                                    <tbody> 
+                                        <td>دمشق</td>
+                                        <td>مساحته 150متر / ثلاث غرف وصالون</td>
+                                        <td>80000</td>
+                                        <td>
+                                        
+                                            <input type="checkbox" onclick="toggleDetails(this)">
+                                            <div class="hidden">
+                                                <p> المنطة : الشعلان</p>
+                                                <p> يوجد بلكون    </p>
+                                                <p>  مفروشة</p>
+                                                <p>الطابق الثالث</p>
+                                                <p>الملكية: طابو</p>
+                                                <img src="صور الويب/IMG-20240517-WA0093.jpg">
+                                                <img src="صور الويب/IMG-20240517-WA0092.jpg">
+                                                </div>
+                                        </td>
+                                        <td>
+                                            <input type="radio" data-selected="false" onclick="toggleSelection(this)">
+                                        </td>
+                                        </tbody>
+                                    </table>
+<br>
+<button id="button1" onclick="toggleDiv()" onclick="show()">متابعة</button>
+
+<div class="div-button2">
+    <button onclick="window.location.href='AbutUs.html'" class="button-prop">Abut us</button>
+ <button onclick="window.location.href='home.html'" class="button-prop">Home</button>
+</div>
+
+<div id="div-prop1">
+    <h1>الاسم الكامل بالعربي</h1>
+    <input class="input1 prop" type="text" pattern="[\u0600-\u06FF\s]+">
+    <span class="error-message input1-error">الاسم الكامل يجب أن يكون بالحروف العربية فقط</span>
+    <h1>الرقم الوطني</h1>
+    <input class="input2 prop" type="text" pattern="\d{11}" required>
+    <span class="error-message input2-error">الرقم الوطني يجب أن يكون مكون من 11 رقم</span>
+    <h1>تاريخ الولادة</h1>
+    <input class="input3 prop" type="date">
+    <br>
+    <h1>رقم الموبايل</h1>
+    <input class="input4 prop" type="tel" pattern="^09\d{8}$">
+    <span class="error-message input4-error">رقم الموبايل يجب أن يبدأ بـ 09 وأن يكون مكون من 10 أرقام</span>
+    <h1>الإيميل</h1>
+        <input class="input5 prop" type="email" pattern="^[\w-\.]+@(gmail|hotmail)\.com$">
+        <br>
+        <br>
+        <span class="error-message input5-error">الإيميل يجب أن ينتهي بـ @gmail.com أو @hotmail.com</span>
+    <div class="captcha">
+        <button class="captcha-button" onclick="refreshCaptcha()">تحديث</button>
+        <div id="captcha">ABC123</div>
+    </div>
+    <h1>رمز التحقق</h1>
+    <input id="txtCaptcha" class="input-prop" type="text">
+    <br>
+    <button id="done">تم</button>
+    <br>
+    <button class="button2" onclick="showPropertyDetails()">إرسال</button>
+</div>
+<script src="myfunction.js"></script>
+<script src="jquery-3.7.1.js"></script>
+</body>
+</html>
